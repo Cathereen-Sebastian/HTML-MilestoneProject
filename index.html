@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVATION FORM </title>
+</head>
+<bodyform.form-example {
+    display: table;
+  }
+  
+  div.form-example {
+    display: table-row;
+  }
+  
+  label,
+  input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    padding-right: 10px;
+  }
+  >
+    <h1>Travel Reservation Form</h1><br>
+    <h3>* Denotes Mandatory</h3>
+    <form class="" action="mailto:cathereensebastian@gmail.com" method="post" enctype="text/plain">
+        <label>Full Name *:</label><br>
+        <input type="text" id="Full name" name="Full name"required>
+        <br><br>
+        <label>Email address*:</label><br>
+        <input type="email" id="email address" name="email address"required>
+        <br><br>
+        <label>Mobile number*:</label><br>
+        <input type="text" id="number" name="mobile number"required>
+         <br><br>
+        <label>Select Your Package*:</label><br>
+        <select name="Select Your Package" id="Select Your Package"required>
+             <option value="Goa">Goa</option>
+             <option value="Delhi">Delhi</option>
+             <option value="Kashmir">Kashmir</option>
+             
+        </select>
+        <br><br>
+        <label for="date">Arrival Date*:</label><br>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+        <label for="number">No.of persons*:</label><br>
+        <input type="number" min="1" name="No.of persons"required>
+        <br><br>
+        <label>What would you want to avail? *:</label><br>
+        <div>
+            <label>Boarding</label>
+            <input type="checkbox" id="Boarding" name="Boarding"  />
+
+        </div>
+        <div>
+            <label>Fooding</label>
+            <input type="checkbox" id="Fooding" name="Fooding" />
+
+        </div>
+        <div>
+            <label>Site Seeing</label>
+            <input type="checkbox" id="Site Seeing" name="Site Seeing"  />
+
+        </div>
+        <br>
+       
+      
+        <label>Discount coupon code :</label><br>
+        <input type="text" id="Discount coupon code " name="Discount coupon code ">
+        <br><br>
+       <label>Terms and conditions *:</label><br>
+        <div>
+            <label for="I agree">I agree</label>
+            <input type="checkbox" id="I agree" name="I agree"/>
+            
+        </div>
+        <div>
+            <label for="I don't agree">I dont' agree</label>
+            <input type="checkbox" id="I don't agree" name="I don't agree"/>
+            
+        </div>
+        <br>
+        
+        
+
+        <label>Complete Reservation</label>
+        <input type="submit" value="submit" name="Complete Reservation">
+     </form>
+    
+</body>
+</html>
